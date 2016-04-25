@@ -1,0 +1,33 @@
+<style>
+body {
+	background: #f6f6f6;
+	margin: 0px;
+	padding: 20px;
+	}
+#header {
+	text-align: center;
+}
+h1 {text-align: center;
+	font-style: bold;
+	font-family: Helvetica;
+	}
+
+h2 {font-family: Helvetica;
+	}
+
+h3 {font-family: Helvetica;
+	font-size: 16px;
+	}
+p {font: times;
+	}
+
+a:active {
+	font-style: italic;
+
+}
+a:visited {
+	font-style: italic;
+}
+
+	}
+</style>
