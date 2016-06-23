@@ -1,0 +1,136 @@
+.wrapper{
+	margin: 0px auto;
+	width: 1024px;
+}
+
+.desktop nav{
+	margin: 0 auto;
+	width: 100%;
+	padding: 1px;
+	border: 1px solid black;
+	overflow: hidden;
+	display: block;
+}
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:0px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+
+li{
+	display: inline-block;
+	border: 1px solid black;
+	width: 100px;
+	height: 20px;
+	margin: 10px 0 0 0;
+	padding: 1px;
+}
+
+ul{
+list-style-type: none;
+margin: 0 auto;
+padding: 1px
+;
+}
+
+.main-image {
+margin: 20px auto;
+width: 1024px;
+height: 300px;
+background-color: gray;
+border: 1px solid black;
+display: block;
+}
+
+
+
+.vignettes {
+text-align: center;
+margin: 0 auto;
+width: 1024px;
+height: auto;
+display: block;
+}
+
+.vignettes div{
+display: inline-block;
+margin: 15px 0 0 0;
+width: 210px;
+height: 250px;
+border: 1px solid black;
+background-color: gray;
+}
+
+.summary{
+text-align: center;
+margin: 20 auto;
+width: 1024;
+height: auto;
+border: 1px solid black;
+display: block;
+}
+
+.summary div{
+display: inline-block;
+margin: 15px 0 0 0;
+width: 300px;
+height: 250px;
+border: 1px solid black;
+background-color: gray;
+}
+
+
+@media all and (max-width: 768px){
+
+.wrapper{
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	width: 100%;
+}
+
+.main-image{
+	width: 100%;
+	margin: 0;
+	background-color: yellow;
+}
+
+.vignettes {
+	width: 100%;
+}
+
+.vignettes div{
+	display: block;
+	text-align: center;
+	margin: 10px 0 0 0;
+	width: 100%;
+}
+
+.summary{
+	background-color: yellow;
+	border-style: none;
+	width: 100%;
+}
+
+.summary div{
+	display: block;
+	margin: 10px 0 0 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+}
+
+}

@@ -54,15 +54,25 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
 }
+nav ul {
+  display: inline-block;
+  
+}
 
-ul {
+#categories ul {display: block;
+  margin: auto;
+  padding: 0;
+
 
 }
 
-li{
-  display:inline-block;
-  padding: 0 10px;
+#categories ul li{
+  display: block;
+  text-align: left;
+  padding-top: 10px;
   color:#ffffff;
+  font-size: 24px;
+  font-weight:lighter;
 
 }
 
@@ -75,6 +85,24 @@ h1{
   color: #ffffff;
   margin: 0;
 }
+
+h2 {
+  font-size: 40px;
+  font-weight: semibold;
+
+}
+
+h3{
+  font-size: 32px;
+  font-weight: extrabold;
+  
+}
+
+.post-body-text {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -86,18 +114,33 @@ h1{
 }
 
 main {
+  width: 960px;
+  margin: auto;
   background-color: #606161;
   padding: 25px 0 0 0;
 }
 
-#posts {
-  width: 60%;
-  display: block;
+#posts.alignleft{
+  width: 700px;
+  display: inline-block;
 
 }
 
 #posts img{
-  width: 100%;
+  width: 700px;
+}
+
+#sidebar.alignright{
+width: 240px;
+padding-left: 20px;
+margin: auto;
+display: inline-block;
+
+}
+
+#about p{
+  font-size: 22px;
+
 }
 
 header {
